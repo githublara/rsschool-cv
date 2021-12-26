@@ -1,1 +1,1 @@
-# rsschool-cv
+https://githublara.github.io/rsschool-cv/cv
