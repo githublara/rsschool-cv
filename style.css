@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+   font-family: 'Roboto', sans-serif;
+   line-height: 20px;
+}
+.container {
+   max-width: 1130px;
+   padding: 30px 15px;
+   margin: 0 auto;
+}
+
+ul li {
+   list-style: none;
+   padding: 0;
+}
+li {
+   margin-left: -15px;
+}
+
+a, a:visited {
+   text-decoration: none;
+   color: #000;
+}
+a:hover {
+   color:#C4C4C4;
+}
+
+h2{
+   color:#4F4F4F;
+   text-transform: uppercase;
+}
+h3{
+   color: #C4C4C4;
+   margin-bottom: 60px;
+}
+.nav{
+   display: flex;
+   justify-content: space-between;
+   padding-left: 150px;
+   margin-bottom: 60px;
+   color:#4F4F4F;
+}
+.header{
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 30px;
+}
+.header__avatar img{
+   height: 300px;
+}
+
+.main {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 60px;
+}
+.about{
+   margin-bottom: 30px;
+}
+.skills{
+   margin-bottom: 30px;
+}
+.code{
+   margin-bottom: 30px;
+}
+.projects{
+   margin-bottom: 30px;
+}
+.footer {
+   display: flex;
+   justify-content: space-around;
+   height: 70px;
+   padding: 10px;
+}
+.footer__year{
+   font-size: 26px;
+   padding-top: 30px;
+}
+.footer__github img{
+   height: 100%;
+}
+.footer__rsschool img{
+   height: 100%;
+}
